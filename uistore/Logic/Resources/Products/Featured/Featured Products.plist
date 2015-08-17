@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ID</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>Rooney Shirt</string>
+		<key>FeaturedImage</key>
+		<string>img1_featured.png</string>
+		<key>Price</key>
+		<string>50</string>
+		<key>Details</key>
+		<string>1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt facilisis erat, quis aliquam nulla dictum a. Sed eu est quis dolor maximus ultrices rhoncus ac nibh. Phasellus venenatis, ante non pulvinar volutpat, arcu libero euismod sapien, id mattis erat turpis eu risus. Cras gravida, lorem vitae varius mollis, odio.</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>2</string>
+		<key>Name</key>
+		<string>Iniesta Shirt</string>
+		<key>FeaturedImage</key>
+		<string>img2_featured.png</string>
+		<key>Price</key>
+		<string>60</string>
+		<key>Details</key>
+		<string>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt facilisis erat, quis aliquam nulla dictum a. Sed eu est quis dolor maximus ultrices rhoncus ac nibh. Phasellus venenatis, ante non pulvinar volutpat, arcu libero euismod sapien, id mattis erat turpis eu risus. Cras gravida, lorem vitae varius mollis, odio.</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>3</string>
+		<key>Name</key>
+		<string>Ronaldo Shirt</string>
+		<key>FeaturedImage</key>
+		<string>img3_featured.png</string>
+		<key>Price</key>
+		<string>70</string>
+		<key>Details</key>
+		<string>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt facilisis erat, quis aliquam nulla dictum a. Sed eu est quis dolor maximus ultrices rhoncus ac nibh. Phasellus venenatis, ante non pulvinar volutpat, arcu libero euismod sapien, id mattis erat turpis eu risus. Cras gravida, lorem vitae varius mollis, odio.</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>4</string>
+		<key>Name</key>
+		<string>Neymar Shirt</string>
+		<key>FeaturedImage</key>
+		<string>img4_featured.png</string>
+		<key>Price</key>
+		<string>90</string>
+		<key>Details</key>
+		<string>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt facilisis erat, quis aliquam nulla dictum a. Sed eu est quis dolor maximus ultrices rhoncus ac nibh. Phasellus venenatis, ante non pulvinar volutpat, arcu libero euismod sapien, id mattis erat turpis eu risus. Cras gravida, lorem vitae varius mollis, odio.</string>
+	</dict>
+</array>
+</plist>

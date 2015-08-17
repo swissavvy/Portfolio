@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ID</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>Featured</string>
+		<key>Image</key>
+		<string>Side Menu Home</string>
+		<key>Segue</key>
+		<string>menuFeaturedSegue</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>4</string>
+		<key>Name</key>
+		<string>My Cart</string>
+		<key>Image</key>
+		<string>Side Menu Cart</string>
+		<key>Segue</key>
+		<string>menuCartSeuge</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>5</string>
+		<key>Name</key>
+		<string>My Account</string>
+		<key>Image</key>
+		<string>Side Menu Profile</string>
+		<key>Segue</key>
+		<string>menuAccountSegue</string>
+	</dict>
+	<dict>
+		<key>ID</key>
+		<string>6</string>
+		<key>Name</key>
+		<string>Log Out</string>
+		<key>Image</key>
+		<string>Side Menu Logout</string>
+		<key>Segue</key>
+		<string>menuLoginSegue</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="smallImageProductCell" rowHeight="100" id="HI1-rB-h4n" customClass="ProductTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HI1-rB-h4n" id="fNc-Om-lwE">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Right Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="R0D-3p-aWB">
+                        <rect key="frame" x="275" y="37" width="25" height="26"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="T7A-mI-19N"/>
+                            <constraint firstAttribute="width" constant="25" id="pWz-pR-snn"/>
+                        </constraints>
+                    </imageView>
+                    <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lRO-VU-Fda">
+                        <rect key="frame" x="15" y="10" width="104" height="79"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="79" id="kEf-vT-QD1"/>
+                            <constraint firstAttribute="width" constant="104" id="t67-xB-eHQ"/>
+                        </constraints>
+                    </imageView>
+                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="135" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-pv-iMS">
+                        <rect key="frame" x="132" y="20" width="135" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.29803921568627451" green="0.29019607843137257" blue="0.30980392156862746" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVq-rC-AtY">
+                        <rect key="frame" x="132" y="58" width="135" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="74z-u2-B3f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.53333333333333333" green="0.50980392156862742" blue="0.50980392156862742" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="5HF-pv-iMS" firstAttribute="top" secondItem="lRO-VU-Fda" secondAttribute="top" constant="10" id="8BA-ug-gip"/>
+                    <constraint firstAttribute="centerY" secondItem="lRO-VU-Fda" secondAttribute="centerY" id="G5h-7q-J5L"/>
+                    <constraint firstItem="5HF-pv-iMS" firstAttribute="leading" secondItem="lRO-VU-Fda" secondAttribute="trailing" constant="13" id="GUY-4V-2Jj"/>
+                    <constraint firstItem="FVq-rC-AtY" firstAttribute="top" secondItem="5HF-pv-iMS" secondAttribute="bottom" constant="1" id="JLw-P5-3y1"/>
+                    <constraint firstAttribute="trailing" secondItem="R0D-3p-aWB" secondAttribute="trailing" constant="20" id="JTj-sP-au7"/>
+                    <constraint firstAttribute="centerY" secondItem="R0D-3p-aWB" secondAttribute="centerY" constant="-0.5" id="Jo1-fg-Atx"/>
+                    <constraint firstItem="5HF-pv-iMS" firstAttribute="trailing" secondItem="FVq-rC-AtY" secondAttribute="trailing" id="P7S-lv-jsy"/>
+                    <constraint firstItem="R0D-3p-aWB" firstAttribute="leading" secondItem="5HF-pv-iMS" secondAttribute="trailing" constant="8" id="agp-YG-ok5"/>
+                    <constraint firstItem="5HF-pv-iMS" firstAttribute="leading" secondItem="FVq-rC-AtY" secondAttribute="leading" id="eZm-6m-Ks1"/>
+                    <constraint firstItem="lRO-VU-Fda" firstAttribute="leading" secondItem="fNc-Om-lwE" secondAttribute="leading" constant="15" id="rg9-5F-jdg"/>
+                    <constraint firstItem="5HF-pv-iMS" firstAttribute="bottom" secondItem="lRO-VU-Fda" secondAttribute="bottom" constant="-32" id="tV0-Q1-Dg8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imgProduct" destination="lRO-VU-Fda" id="bH4-Iz-ScQ"/>
+                <outlet property="lblName" destination="5HF-pv-iMS" id="h0U-Be-Qwc"/>
+                <outlet property="lblPrice" destination="FVq-rC-AtY" id="1dj-uG-JSk"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Right Arrow" width="26" height="26"/>
+    </resources>
+</document>
